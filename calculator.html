@@ -9,7 +9,7 @@
 
     <!-- Added a link to Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
@@ -50,7 +50,7 @@
                     <br><br>
                     <button id="button-0" class="btn btn-primary number" value="0"><h1>0</h1></button>
                     <button id="button-divide" class="btn btn-warning operator" value="divide"><h1>&divide;</h1></button>
-                    <button id="button-power" class="btn btn-warning operator" value="pii"><h1>&#8508;</h1></button>
+                    <button id="button-pii" class="btn btn-warning operator" value="pii"><h1>&#8508;</h1></button>
                     <button id="button-equal" class="btn btn-success equal" value="equals"><h1>=</h1></button>
                       &nbsp; &nbsp;
                     <button id="button-clear" class="btn btn-info clear" value="clear"><h1>Clear</h1></button>
@@ -59,7 +59,7 @@
             <!-- Result Panel -->
             <div class="col-sm-6">
                     <h3>Result</h3>
-                <div class="">
+                <div class="data">
                     <h1 id="first"></h1>
                     <h1 id="operator"></h1>
                     <h1 id="second"></h1>
